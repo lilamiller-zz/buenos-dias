@@ -7,9 +7,14 @@
 
 <%= link_to 'Home', root_path, class: "my-link-class" %>
 
-<p id="notice"><%= notice %></p>
+	<p id="notice"><%= notice %></p>
 
-<div class="phrase"> <%= @phrase.happy_quote %> </div>
+<%= link_to(random_phrase) do %>
+
+	<div class="phrase"> <%= @phrase.happy_quote %> </div>
+
+<% end %>
+
 
 </div>
 
