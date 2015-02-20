@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails'
 
+gem "devise"
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.11.0'

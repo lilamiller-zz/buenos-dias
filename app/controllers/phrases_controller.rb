@@ -1,4 +1,5 @@
 class PhrasesController < ApplicationController
+  before_filter :authenticate_user!, :only => [:index, :edit, :create, :destroy, :new, :post, :update]
   # GET /phrases
   # GET /phrases.json
   def index
