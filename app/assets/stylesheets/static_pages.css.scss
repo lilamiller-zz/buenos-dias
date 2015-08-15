@@ -5,9 +5,16 @@
 body { margin: 0;}
 
 p {
-	font-size: 18px;
+	font-size: 24px;
 	font-family: 'Quicksand', sans-serif;
-	color: black;
+	color: #545454;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Quicksand', sans-serif;
+	color: #545454;
 }
 
 a.name-tag {
@@ -34,7 +41,7 @@ a.name-tag:hover {
 
 
 a.big-button {
-	background: #f9e648;
+	background: #f8e32f;
 	font-size: 40px;
 	text-decoration: none;
 	text-align: center;
@@ -54,7 +61,7 @@ a.big-button {
 }
 
 a.big-button:hover { 
-	background-color: #f8e32f ;
+	background-color:#ffff76;
 	text-decoration: none;
 }
 
@@ -65,6 +72,16 @@ a.big-button:hover {
     display: block;
 
     }
+
+.textabout {
+	background-color: transparent;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding:0 20vw 0 20vw;
+
+}
 
 a.my-link-class {
 	font-family: 'Quicksand', sans-serif;
